@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+  font-family: 'Istok Web', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 1s;
+}
+
+a:hover {
+  color: blue
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+  padding: 7px;
+  /* border: solid #F6F3ED 2px; */
+  border-radius: 20px;
+}
+
+img {
+  height: 150px;
+  /* fill: red;*/
+  filter: invert(17%) sepia(86%) saturate(1147%) hue-rotate(185deg) brightness(88%) contrast(95%);
+  width: 100px;
+  /* color: blue;*/
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  align-items: flex-start;
+  row-gap: 25px;
+  width: 100%;
+}
+
+.grid-container > figure{
+  width: 250px;
+  transition: 0.2s;
+}
+
+.grid-container > figure:hover {
+  /* box-shadow: 11px 9px 16px 0px #7d7d7d;*/
+  box-shadow: 19px 20px 10px 1px #7d7d7d;
+}
+
+
+.figure-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.figure-description {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px
+}
+

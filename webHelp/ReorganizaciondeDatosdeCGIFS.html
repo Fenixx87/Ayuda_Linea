@@ -1,0 +1,421 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Reorganizaci&oacute;n de Datos de CG/IFS</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reorganizaci&oacute;n de Datos de CG/IFS">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Reorganizaci&oacute;n de Datos de CG/IFS" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Ayuda en L&iacute;nea CG/Web" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-it.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Ayuda en L&iacute;nea CG/Web</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ReorganizaciondeDatosdeCGIFS"
+		  data-hnd-context="397"
+		  data-hnd-title="Reorganización de Datos de CG/IFS"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="FINANCIERO.html">FINANCIERO</a></li><li><a href="MANUALDEMANTENIMIENTO.html">MANUAL DE MANTENIMIENTO</a></li><li><a href="MenudeMantenimiento.html">Men&uacute; de Mantenimiento</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="MenudeMantenimiento.html" title="Men&uacute; de Mantenimiento" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="MenudeMantenimiento.html" title="Men&uacute; de Mantenimiento" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ActualizarAno-PeriododeReorganiz.html" title="Actualizar A&ntilde;o – Periodo de Reorganizaci&oacute;n por Cia." role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Reorganizaci&oacute;n de Datos de CG/IFS</h2>
+
+            <div class="main-content">
+                
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">La reorganización de datos de CG/Web únicamente puede ejecutarla el usuario CGIFS. El proceso de Reorganización de datos de CG/Web es un paso muy útil, con él se consigue lo siguiente:</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">ACTUALIZACIÓN:</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">&nbsp;de datos de CG/Web es una herramienta que tiene como objetivo lo siguiente:</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Eliminar todos aquellos comprobantes de Año-Periodo menor o igual al Año-Periodo hasta el que se reorganiza para las Compañías indicadas.</span></li>
+</ul>
+<p class="rvps69"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Eliminar saldos históricos, es decir, aquellos correspondientes a movimientos de Periodos reorganizados, para las Compañías indicadas.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Eliminar todos los saldos extracontables hasta el mismo Año-Periodo en que se reorganizan saldos históricos. Si se desea eliminar un único Tipo de extracontable o un intervalo determinado se debe utilizar la opción ‘Borrar datos Extracontables’ del Menú de datos Extracontables.</span></li>
+</ul>
+<p class="rvps69"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Suprimir &nbsp;todos los datos de una Compañía. Para ello se requiere que esté inactiva.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Eliminar todos los registros inactivos cuya existencia no sea requerida. Así por ejemplo, una Cuenta de Mayor será eliminada en el caso de que su saldo sea cero y en el caso de tener los movimientos contables eliminados.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">RAPIDEZ</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Este procedimiento concentra todos los registros válidos en forma ordenada y continua de forma que el acceso a cualquier información se vuelve más ágil y rápido.&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">CAPACIDAD</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Al eliminar registros, concentrar y ordenar los que quedan, indudablemente se recupera espacio en el disco.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts45">Consecuencias de&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Antes de reorganizar y de acuerdo con el listado de situación de las Compañías que se han seleccionado, se debe tener en Cuenta que el proceso va a producir los siguientes resultados:</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de movimientos contables</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Son eliminados todos los Comprobantes con estado Rechazado de todos los Periodos.</span></li>
+ <li class="rvps4"><span class="rvts11">Son eliminadas todas las cabeceras de Comprobantes contabilizados correspondientes a Periodos cerrados hasta el Año-Periodo que se indique (inclusive).</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Durante &nbsp;de movimientos contables se distinguen tres casos básicos:</span></p>
+<p class="rvps24"><span class="rvts6"><br/></span></p>
+<p class="rvps24"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts15">Cuentas de Mayor sin Auxiliar</span></li>
+</ul>
+<p class="rvps23"><span class="rvts11">Se eliminan los movimientos de los Periodos a reorganizar y se crea un movimiento resumen, en el último Periodo reorganizado, para cada Cuenta de Mayor cuyo saldo en moneda local, en moneda extranjera o en tercer importe sea distinto de cero.</span></p>
+<p class="rvps23"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts15">Cuentas de Mayor con Auxiliar sin documento</span></li>
+</ul>
+<p class="rvps23"><span class="rvts11">Se procede de forma idéntica al caso anterior pero se crea un registro resumen para cada combinación Cuenta de Mayor-Cuenta de Auxiliar.&nbsp;</span></p>
+<p class="rvps23"><span class="rvts6"><br/></span></p>
+<p class="rvps23"><span class="rvts11">Si &nbsp;de Mayor trabaja con más de un Tipo de Auxiliar, se crea un movimiento resumen para cada combinación Cuenta de Mayor-Cuentas de Auxiliar.</span></p>
+<p class="rvps24"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts15">Cuentas de Mayor con Auxiliar y con documento</span></li>
+</ul>
+<p class="rvps23"><span class="rvts11">Su tratamiento puede realizarse de dos formas diferentes según se desee o no resumir los movimientos de documentos que no estén cancelados. Para indicar que se resuman se deben detallar las Cuentas de Mayor a las que pertenecen estos documentos mediante la opción: Reorganización de datos/ Actualizar Cuentas con documentos para resumir.</span></p>
+<p class="rvps24"><span class="rvts6"><br/></span></p>
+<p class="rvps23"><span class="rvts15">Si no se indican Cuentas con documento para Resumir:</span></p>
+<p class="rvps23"><span class="rvts11">Se eliminan los movimientos correspondientes a documentos cancelados hasta el Periodo indicado. En las Cuentas de Mayor con documento que además trabajan con segundo y/o tercer Auxiliar, si los documentos están cancelados en primer Auxiliar pero no en alguno de los otros dos Auxiliares se procede de la siguiente forma:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 30px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Se eliminan los movimientos correspondientes a documentos cancelados a nivel de primer Auxiliar antes del primer Periodo que queda vigente.</span></li>
+ <li class="rvps4"><span class="rvts11">Se crean movimientos resumen para las combinaciones de Auxiliares no canceladas con número de documento &lt;-0000000.</span></li>
+</ul>
+<p class="rvps23"><span class="rvts11">Los documentos no cancelados a nivel de primer Auxiliar quedan vigentes aunque sean de Periodos reorganizados, formando parte de su Comprobante original pero sin el encabezado.</span></p>
+<p class="rvps24"><span class="rvts6"><br/></span></p>
+<p class="rvps118"><span class="rvts15">Si se indican Cuentas con documento para Resumir:</span></p>
+<p class="rvps118"><span class="rvts11">Se eliminan los movimientos correspondientes a las Cuentas indicadas de documentos no cancelados, creando un documento resumen para cada combinación Cuenta Mayor-Auxiliar 1º-Auxiliar 2º-Auxiliar 3º.</span></p>
+<p class="rvps118"><span class="rvts6"><br/></span></p>
+<p class="rvps118"><span class="rvts11">Los movimientos resumen quedan formando parte de un Comprobante de número 98763 y de Tipo de Comprobante 01, que se crea automáticamente sin encabezado. Estos movimientos se incorporan al último Periodo reorganizado.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de saldos históricos&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Son eliminados todos los saldos históricos hasta el Periodo que se seleccione (inclusive) y cuyos movimientos ya están reorganizados. Se crea un saldo inicial al Debe o al Haber en el último Periodo a reorganizar, que corresponde a la suma de su importe más los importes de los Periodos anteriores.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de datos extracontables</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Son eliminados los importes introducidos sobre todos los Tipos de datos extracontables hasta el Año-Periodo seleccionado para reorganizar saldos históricos.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Eliminar Todo</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Son eliminados todos los movimientos y saldos contables y extracontables de las Compañías en las que se selecciona esta opción, así como el código de Compañía.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Cuentas de Mayor</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 15px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Son eliminadas las Cuentas de Detalle con estado Inactivo que no tengan movimientos contables ni saldos, tanto contables como extracontables.</span></li>
+ <li class="rvps4"><span class="rvts11">Son eliminadas las Cuentas de Título que tengan estado Inactivo y en &nbsp;queden sin ninguna Cuenta de Detalle dependiendo de ellas.</span></li>
+ <li class="rvps4"><span class="rvts11">Son eliminadas de las Estructuras todas las Cuentas de Mayor previamente eliminadas al ejecutar &nbsp;de Cuentas de Mayor. Si una línea de descripción queda sin Cuentas de Mayor asociadas también será eliminada de la estructura.</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Cuentas de Auxiliar</span></p>
+<p class="rvps4"><span class="rvts11">Son eliminadas las que tienen estado Inactivo y no tienen ningún movimiento contable ni saldos, tanto contables como extracontables. Al eliminar una Cuenta de Auxiliar se elimina también su dirección y memos.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Asimismo, se eliminan los grupos de Cuentas de Auxiliar que tengan estado Inactivo y ya no son usados por ninguna Cuenta de Auxiliar.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Tipos de Auxiliar</span></p>
+<p class="rvps4"><span class="rvts11">Son eliminados los Tipos de Auxiliar que tengan estado Inactivo, siempre que no tengan Cuentas de Auxiliar y no usen ninguna Cuenta de Mayor, ni figure en ningún grupo de Cuentas de Auxiliar.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Compañías</span></p>
+<p class="rvps4"><span class="rvts11">Son eliminadas del archivo las Compañías con estado Inactivo, que no tengan ningún Comprobante ni movimiento contable y que no tengan ningún saldo, tanto contable como extracontable.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Grupos de Compañías</span></p>
+<p class="rvps4"><span class="rvts11">Son eliminados del archivo los grupos de Compañías que tengan estado Inactivo.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Planes de Cuentas</span></p>
+<p class="rvps4"><span class="rvts11">Son eliminados del archivo los Planes de Cuentas con estado de Inactivo, si no es usado por ninguna Compañía y no tiene definida ninguna Cuenta de Mayor.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Usuarios de CG/Web</span></p>
+<p class="rvps4"><span class="rvts11">Son eliminados todos los perfiles de Usuario con estado Inactivo y que no sean CGIFS o CGAUDIT. Al desaparecer un usuario todos los elementos de su propiedad pasan a ser propiedad del usuario CGIFS.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts15">Reorganización de Líneas de Estructuras&nbsp;</span></p>
+<p class="rvps4"><span class="rvts11">&nbsp;de líneas de estructuras se ejecuta automáticamente cada vez que se ejecuta &nbsp;de Cuentas de Mayor. Una vez terminada &nbsp;de Cuentas de Mayor, el programa correspondiente se encarga de lo siguiente:</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps4"><span class="rvts11">Elimina de las estructuras definidas todas las Cuentas de Mayor inexistentes en el maestro de Cuentas de Mayor.</span></li>
+ <li class="rvps4"><span class="rvts11">Elimina todas las líneas de descripción que queden sin ninguna Cuenta de Mayor asociada.&nbsp;</span></li>
+</ul>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">En caso de existir alguna referencia definida conteniendo únicamente Cuentas de Mayor reorganizadas, dicha referencia será también eliminada.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts95">Menú de Reorganización de Datos de CG/Web</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Las opciones disponibles se presentan en la pantalla que muestra&nbsp;</span><span class="rvts36"> 1.2</span><span class="rvts11">.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps3"><img width="298" height="424" alt="" style="padding : 1px;" src="lib/NewItem1516.jpg"></p>
+<p class="rvps63"><span class="rvts37">Figura 1. &nbsp;Menú – Reorganización de Datos.&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts11">Cada opción se describe brevemente a continuación:&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts20">Actualizar de Año – Periodo de Reorganización por Cia.&nbsp;</span></p>
+<p class="rvps4"><span class="rvts11">Mediante esta opción se indica de forma individual para cada Compañía hasta qué Periodo se desean reorganizar movimientos, saldos contables y/o extracontables o bien si se quiere suprimir &nbsp;todos los datos de una Compañía.&nbsp;</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts20">Actualizar Cuentas con documentos para resumir</span></p>
+<p class="rvps4"><span class="rvts11">Permite introducir Cuentas que trabajan con documentos de las que se desean eliminar sus movimientos aunque los documentos no estén cancelados, resumiéndolos en un documento definido por el usuario.</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts20">Selección de los datos a reorganizar</span></p>
+<p class="rvps4"><span class="rvts11">Permite seleccionar los datos que se desean reorganizar (movimientos contables, Cuentas de Mayor, Cuentas de Auxiliar, etc.)</span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts6"></span><span class="rvts6"></span></p>
+<p class="rvps7" style="clear: both;"><span class="rvts12">Created with the Personal Edition of HelpNDoc: </span><a class="rvts13" href="https://www.helpndoc.com">Free Qt Help documentation generator</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

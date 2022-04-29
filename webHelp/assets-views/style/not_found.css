@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content:center;
+  height: 97vh;
+  font-family: 'Istok Web', sans-serif;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+  background-color: #0D3759;
+  height: 31px;
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+a:hover {
+  background-color: #196EB3;
+}
